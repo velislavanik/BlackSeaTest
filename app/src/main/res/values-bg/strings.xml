@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Тест</string>
+    <string name="label1">Тест за Черно море</string>
+    <string name="question1">1. Черно море, явяващо се периферно на Атлантическия океан, се намира между:</string>
+    <string name="question1_a">Източна Европа, Кавказ и Западна Азия</string>
+    <string name="question1_b">Антилски и Вирджински острови</string>
+    <string name="question1_c">Гърция и Мала Азия (Анадола)</string>
+    <string name="question2">2.  Мистерията около произхода на името Черно Море наречено така от древните гърци, защото:</string>
+    <string name="question2_a">било е негостоприемно, бурно море</string>
+    <string name="question2_b">заради цианобактерия (синьо-зелени водорасли) оцветяваща водата</string>
+    <string name="question3">3. Бреговете му граничат със следните 6 държави:</string>
+    <string name="question3_a">Румъния и България на запад</string>
+    <string name="question3_b">Украйна, Русия и Грузия на север и изток</string>
+    <string name="question3_c">Турция на юг</string>
+    <string name="question3_d">Норвегия на северозапад</string>
+    <string name="vote">Благодарим за отделеното време! Ако теста Ви хареса, моля гласувайте!</string>
+    <string name="of9">" от 9."</string>
+    <string name="yourscore">Вашите точки са:</string>
+    <string name="submit">Гласувай</string>
+    <string name="noanswer">Моля започнете отначало, тъй като предходните отговори не бяха изтрити!</string>
+    <string name="nothingcorrect">Нямате верен отговор. Моля, опитайте отново!</string>
+    <string name="correctanswer">"       Правилен отговор:"</string>
+    <string name="river">ДУНАВ</string>
+    <string name="clearanswers">Изтриване на отговорите</string>
+    <string name="checkanswers">Проверка на отговорите</string>
+    <string name="bottom">Пести водата, защото водата е живот.</string>
+    <string name="question7_c">Босфора</string>
+    <string name="question7_b">Гибралтарски проток</string>
+    <string name="question7_a">Берингов проток</string>
+    <string name="question7">7. Посочете протока, който свързва Черно море с Мраморно море и чрез Дарданелите с Егейско и Средиземно море</string>
+    <string name="question6_b">Ноевият ковчег</string>
+    <string name="question5_a">Да</string>
+    <string name="question5_b">Не</string>
+    <string name="question6_a">Първият кръстоносен поход</string>
+    <string name="question5">"5. Черно море  е най-големият воден басейн със слоеве от вода, които не се смесват по между си. На дълбочина над 200 метра почти няма живот, концентрацията на сероводорода е голяма и не позволява проникването на кислород. Това позволява запазване на дървото и въжетата на потънали кораби: "</string>
+    <string name="question4">4. Извирайки от Германия, втората най-дълга река в Европа тече на югоизток минавайки през Австрия, Словакия, Унгария, Хърватска,Сърбия, Румъния, България, Молдова и Украйна преди да се влее в Черно море.</string>
+    <string name="typename">Име</string>
+    <string name="label2">"Докато си седим на бреговете му и се взираме в неговата безкрайност, не осъзнаваме колко малко знаем за него. "</string>
+    <string name="question6">6. Друг интересен факт, а може би легенда за Черно море е, че планината Арарат, намираща се на източния черноморски бряг на Турция, е била мястото на което е акустирал:</string>
+</resources>
