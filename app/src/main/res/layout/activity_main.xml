@@ -21,12 +21,13 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="14dp"
-            android:layout_marginTop="20dp"
-            android:padding="16dp"
+            android:layout_marginBottom="@dimen/textMarginBottom"
+            android:layout_marginTop="@dimen/labelTop"
+            android:paddingLeft="@dimen/paddingLeftAndRight"
+            android:paddingRight="@dimen/paddingLeftAndRight"
             android:text="@string/label1"
             android:textAlignment="center"
-            android:textSize="22sp"
+            android:textSize="@dimen/textSize1"
             android:textStyle="bold" />
 
         <TextView
@@ -34,25 +35,28 @@
             android:layout_height="wrap_content"
             android:text="@string/label2"
             android:textAlignment="center"
-            android:textSize="18sp"
+            android:layout_marginBottom="@dimen/textMarginTopAndBottom"
+            android:textSize="@dimen/textSize2"
             android:textStyle="bold" />
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="3dp"
-            android:layout_marginLeft="12dp"
-            android:layout_marginRight="12dp"
-            android:layout_marginTop="40dp"
+            android:layout_height="@dimen/lineHeight"
+            android:layout_marginLeft="@dimen/marginLeftAndRight"
+            android:layout_marginRight="@dimen/marginLeftAndRight"
+            android:layout_marginTop="@dimen/textMarginTopAndBottom"
+            android:layout_marginBottom="@dimen/textMarginBottom"
             android:background="@android:color/darker_gray" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="8dp"
-            android:padding="14dp"
+            android:layout_marginBottom="@dimen/textMarginTopAndBottom"
+            android:layout_marginTop="@dimen/textMarginTopAndBottom"
+            android:paddingLeft="@dimen/marginLeftAndRight"
+            android:paddingRight="@dimen/marginLeftAndRight"
             android:text="@string/question1"
-            android:textSize="14sp"
+            android:textSize="@dimen/textSize3"
             android:textStyle="bold" />
 
         <RadioGroup
@@ -60,8 +64,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:paddingLeft="14dp"
-            android:textSize="14sp">
+            android:paddingLeft="@dimen/paddingLeftAndRight"
+            android:paddingRight="@dimen/paddingLeftAndRight"
+            android:textSize="@dimen/textSize3"
+            android:layout_marginBottom="@dimen/textMarginBottom">
 
             <RadioButton
                 android:id="@+id/q11"
@@ -83,17 +89,17 @@
                 android:layout_height="wrap_content"
                 android:text="@string/question1_c"
                 android:textColor="#455A64" />
-
         </RadioGroup>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="20dp"
-            android:padding="14dp"
+            android:layout_marginBottom="@dimen/textMarginTopAndBottom"
+            android:layout_marginTop="@dimen/textMarginTopAndBottom"
+            android:paddingLeft="@dimen/paddingLeftAndRight"
+            android:paddingRight="@dimen/paddingLeftAndRight"
             android:text="@string/question2"
-            android:textSize="14sp"
+            android:textSize="@dimen/textSize3"
             android:textStyle="bold" />
 
         <RadioGroup
@@ -101,8 +107,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:paddingLeft="14dp"
-            android:textSize="14sp">
+            android:paddingLeft="@dimen/paddingLeftAndRight"
+            android:paddingRight="@dimen/paddingLeftAndRight"
+            android:layout_marginBottom="@dimen/textMarginBottom"
+            android:textSize="@dimen/textSize3">
 
             <RadioButton
                 android:id="@+id/q21"
@@ -122,16 +130,19 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:padding="14dp"
+            android:layout_marginBottom="@dimen/textMarginTopAndBottom"
+            android:layout_marginTop="@dimen/textMarginTopAndBottom"
+            android:paddingLeft="@dimen/paddingLeftAndRight"
+            android:paddingRight="@dimen/paddingLeftAndRight"
             android:text="@string/question3"
-            android:textSize="14sp"
+            android:textSize="@dimen/textSize3"
             android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="12dp">
+            android:paddingLeft="@dimen/paddingLeftAndRight"
+            android:paddingRight="@dimen/paddingLeftAndRight">
 
             <CheckBox
                 android:id="@+id/q31"
@@ -156,8 +167,9 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="12dp"
-           >
+            android:paddingLeft="@dimen/paddingLeftAndRight"
+            android:paddingRight="@dimen/paddingLeftAndRight"
+            android:layout_marginBottom="@dimen/textMarginBottom">
 
             <CheckBox
                 android:id="@+id/q33"
@@ -166,8 +178,7 @@
                 android:layout_weight="1"
                 android:text="@string/question3_c"
                 android:textColor="#455A64"
-                android:onClick="onCheckboxClicked"
-                />
+                android:onClick="onCheckboxClicked"/>
 
             <CheckBox
                 android:id="@+id/q34"
@@ -176,35 +187,39 @@
                 android:layout_weight="1"
                 android:text="@string/question3_d"
                 android:textColor="#455A64"
-                android:onClick="onCheckboxClicked"
-               />
+                android:onClick="onCheckboxClicked" />
         </LinearLayout>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="18dp"
-            android:paddingLeft="14dp"
-            android:paddingRight="12dp"
+            android:layout_marginTop="@dimen/textMarginTopAndBottom"
+            android:layout_marginBottom="@dimen/textMarginTopAndBottom"
+            android:paddingLeft="@dimen/paddingLeftAndRight"
+            android:paddingRight="@dimen/paddingLeftAndRight"
             android:text="@string/question4"
             android:textColor="#455A64"
-            android:textSize="14sp"
+            android:textSize="@dimen/textSize3"
             android:textStyle="bold" />
 
         <EditText
             android:id="@+id/q4edit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="12dp"
+            android:layout_marginRight="@dimen/marginLeftAndRight"
+            android:layout_marginLeft="@dimen/marginLeftAndRight"
+            android:layout_marginBottom="@dimen/textMarginBottom"
             android:hint="@string/typename"
             android:textColor="#455A64"
-            android:textSize="14dp" />
+            android:textSize="@dimen/textSize3" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="12dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginBottom="@dimen/textMarginTopAndBottom"
+            android:layout_marginTop="@dimen/textMarginTopAndBottom"
+            android:paddingLeft="@dimen/paddingLeftAndRight"
+            android:paddingRight="@dimen/paddingLeftAndRight"
             android:text="@string/question5"
             android:textColor="#455A64"
             android:textStyle="bold" />
@@ -213,9 +228,10 @@
             android:id="@+id/gr5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
+            android:layout_marginBottom="@dimen/textMarginBottom"
             android:orientation="horizontal"
-            android:paddingLeft="12dp">
+            android:paddingLeft="@dimen/paddingLeftAndRight"
+            android:paddingRight="@dimen/paddingLeftAndRight">
 
             <RadioButton
                 android:id="@+id/q51"
@@ -237,9 +253,10 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="12dp"
-            android:layout_marginBottom="16dp"
-            android:layout_marginTop="20dp"
+            android:paddingLeft="@dimen/paddingLeftAndRight"
+            android:paddingRight="@dimen/paddingLeftAndRight"
+            android:layout_marginBottom="@dimen/textMarginTopAndBottom"
+            android:layout_marginTop="@dimen/textMarginTopAndBottom"
             android:text="@string/question6"
             android:textColor="#455A64"
             android:textStyle="bold" />
@@ -248,8 +265,9 @@
             android:id="@+id/gr6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="12dp"
-            android:layout_marginRight="12dp"
+            android:layout_marginLeft="@dimen/marginLeftAndRight"
+            android:layout_marginRight="@dimen/marginLeftAndRight"
+            android:layout_marginBottom="@dimen/textMarginBottom"
             android:orientation="horizontal" >
 
             <RadioButton
@@ -272,9 +290,11 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="12dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginBottom="@dimen/textMarginTopAndBottom"
+            android:layout_marginTop="@dimen/textMarginTopAndBottom"
             android:text="@string/question7"
+            android:paddingLeft="@dimen/paddingLeftAndRight"
+            android:paddingRight="@dimen/paddingLeftAndRight"
             android:textColor="#455A64"
             android:textStyle="bold" />
 
@@ -282,10 +302,11 @@
             android:id="@+id/gr7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="12dp"
-            android:layout_marginRight="12dp"
+            android:layout_marginLeft="@dimen/marginLeftAndRight"
+            android:layout_marginRight="@dimen/marginLeftAndRight"
             android:orientation="vertical"
-            android:padding="2dp">
+            android:layout_marginBottom="@dimen/textMarginBottom"
+             >
 
             <RadioButton
                 android:id="@+id/q71"
@@ -315,11 +336,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="26dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
+            android:layout_marginTop="@dimen/textMarginTopAndBottom"
+            android:layout_marginLeft="@dimen/marginLeftAndRight"
+            android:layout_marginRight="@dimen/marginLeftAndRight"
             android:enabled="true"
-            android:padding="16dp"
+            android:padding="@dimen/padding3"
             android:text="@string/checkanswers"
             android:onClick="checkAnswers"
             android:textColor="#607D8B" />
@@ -330,29 +351,28 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginBottom="20dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
+            android:layout_marginBottom="@dimen/textMarginTopAndBottom"
+            android:layout_marginTop="@dimen/textMarginTopAndBottom"
+            android:layout_marginLeft="@dimen/marginLeftAndRight"
+            android:layout_marginRight="@dimen/marginLeftAndRight"
             android:enabled="true"
-            android:padding="16dp"
+            android:padding="@dimen/paddingLeftAndRight"
             android:text="@string/clearanswers"
             android:onClick="clearAnswers"
             android:textColor="#607D8B" />
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginLeft="12dp"
-            android:layout_marginRight="12dp"
-            android:layout_marginTop="15dp"
+            android:layout_height="@dimen/lineHeight"
+            android:layout_marginLeft="@dimen/marginLeftAndRight"
+            android:layout_marginRight="@dimen/marginLeftAndRight"
+            android:layout_marginTop="@dimen/textMarginTop"
             android:background="@android:color/darker_gray" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="@dimen/textMarginTopAndBottom"
             android:text="@string/vote"
             android:textAlignment="center"
             android:textColor="#455A64"
@@ -368,7 +388,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="44dp"
+                android:layout_marginTop="@dimen/textMarginTopAndBottom"
                 android:theme="@style/RatingBar"/>
 
             <Button
@@ -378,6 +398,7 @@
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
                 android:layout_below="@+id/ratingBar"
+                android:layout_marginTop="@dimen/textMarginTopAndBottom"
                 android:text="@string/submit" />
 
         </RelativeLayout>
@@ -385,10 +406,9 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
-            android:layout_marginTop="44dp"
+            android:layout_marginTop="@dimen/textMarginTopAndBottom"
             android:background="@drawable/imagefile"
-            android:padding="12dp"
+            android:padding="@dimen/padding4"
             android:text="@string/bottom"
             android:textAlignment="center"
             android:textColor="#FFFFFF"

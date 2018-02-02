@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Black Sea Quizz</string>
-    <string name="label1">Welcome to The Black Sea Quizz</string>
+    <string name="label1">Welcome To The Black Sea Quizz</string>
     <string name="label2">Please answer the questions bellow</string>
     <string name="question1">1. The Black Sea is a body of water and marginal sea of the Atlantic Ocean between:</string>
     <string name="question1_a">Eastern Europe, the Caucasus, and Western Asia</string>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="labelTop">40dp</dimen>
+    <dimen name="textMarginBottom">14dp</dimen>
+    <dimen name="textMarginTop">20dp</dimen>
+    <dimen name="textMarginTopAndBottom">10dp</dimen>
+    <dimen name="marginLeftAndRight">12dp</dimen>
+    <dimen name="paddingLeftAndRight">14dp</dimen>
+    <dimen name="textSize1">22sp</dimen>
+    <dimen name="textSize2">18sp</dimen>
+    <dimen name="textSize3">14sp</dimen>
+    <dimen name="lineHeight">2dp</dimen>
+    <dimen name="padding3">2dp</dimen>
+    <dimen name="padding4">10dp</dimen>
+
+
+
+
+
+
+
+</resources>
