@@ -195,8 +195,8 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/textMarginTopAndBottom"
             android:layout_marginTop="@dimen/textMarginTopAndBottom"
-            android:paddingLeft="@dimen/paddingLeftAndRight"
-            android:paddingRight="@dimen/paddingLeftAndRight"
+            android:layout_marginLeft="@dimen/paddingLeftAndRight"
+            android:layout_marginRight="@dimen/paddingLeftAndRight"
             android:text="@string/question4"
             android:textColor="#455A64"
             android:textSize="@dimen/textSize3"
@@ -211,8 +211,9 @@
             android:layout_marginRight="@dimen/marginLeftAndRight"
             android:hint="@string/typename"
             android:textColor="#455A64"
-            android:textSize="@dimen/textSize3" />
+            android:textSize="@dimen/textSize3"
 
+            >
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
