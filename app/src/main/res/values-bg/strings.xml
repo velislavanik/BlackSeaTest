@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Тест</string>
+    <string name="app_name">Тест за Черно море</string>
     <string name="label1">Тест за Черно море</string>
     <string name="question1">1. Черно море, явяващо се периферно на Атлантическия океан, се намира между:</string>
     <string name="question1_a">Източна Европа, Кавказ и Западна Азия</string>

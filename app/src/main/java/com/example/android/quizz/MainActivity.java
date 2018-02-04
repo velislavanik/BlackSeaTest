@@ -141,10 +141,10 @@ public class MainActivity extends AppCompatActivity {
                 // find which button is clicked
                 switch (v.getId() /*to get clicked view id**/) {
                     case R.id.q51:
-                        ans5=false;
+                        ans5=true;
                         break;
                     case R.id.q52:
-                        ans5=true;
+                        ans5=false;
                         break;
                     default:
                         break;
@@ -253,6 +253,7 @@ public class MainActivity extends AppCompatActivity {
                 score += 1;
             EditText et=(EditText)findViewById(R.id.q4edit);
             String text=et.getText().toString().toUpperCase();
+            text=text.replace(" ", "");
             String string1 = getString(R.string.river);
             if (text.equals(string1))
                 score+=1;
@@ -274,7 +275,7 @@ public class MainActivity extends AppCompatActivity {
           b.setTextColor(Color.parseColor("#4CAF50"));
           b=findViewById(R.id.q21);
           b.setTextColor(Color.parseColor("#4CAF50"));
-          b=findViewById(R.id.q52);
+          b=findViewById(R.id.q51);
           b.setTextColor(Color.parseColor("#4CAF50"));
           b=findViewById(R.id.q62);
           b.setTextColor(Color.parseColor("#4CAF50"));
@@ -288,6 +289,7 @@ public class MainActivity extends AppCompatActivity {
           c.setTextColor(Color.parseColor("#4CAF50"));
           EditText ed=(EditText) findViewById(R.id.q4edit);
           String st=ed.getText().toString().toUpperCase();
+          st=st.replace(" ", "");
           if(st.equals(getString(R.string.river)))
               ed.setTextColor(Color.parseColor("#4CAF50"));
           else {
@@ -314,7 +316,7 @@ public class MainActivity extends AppCompatActivity {
         b.setTextColor(Color.parseColor("#757575"));
         RadioGroup gr5=(RadioGroup) findViewById(R.id.gr5);
         gr5.clearCheck();
-        b=findViewById(R.id.q52);
+        b=findViewById(R.id.q51);
         b.setTextColor(Color.parseColor("#757575"));
         RadioGroup gr6=(RadioGroup) findViewById(R.id.gr6);
         gr6.clearCheck();
